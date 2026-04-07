@@ -1,0 +1,13 @@
+{
+  "name": "m1-express-micro",
+  "version": "1.0.0",
+  "description": "Benchmark M1: Simple Express REST API with 3 CRUD endpoints (no OTEL instrumentation)",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "dependencies": {
+    "express": "^4.21.0"
+  }
+}
